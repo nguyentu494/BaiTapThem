@@ -1,0 +1,70 @@
+    * {
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    #all{
+        display: grid;
+        grid-template-areas: 
+        'header header header header header header header'
+        'banner banner banner banner banner banner';
+        gap: 10px;
+    }
+
+    #header {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #subnav {
+        display: flex;
+        width: 240px;
+        justify-content: space-around;
+        margin-top: 32px;
+        color: grey;
+    }    
+    
+    #logo {
+        display: flex;
+        width: 128px;
+        height: 38px;
+        margin-top: 18px;
+    }
+    
+    #infor {
+        display: flex;
+    }
+    
+    #infor .text{
+        width: 200px;
+        height: 36px;
+        margin-top: 22px;
+    }   
+
+    #infor #cart, #infor #user{
+        margin-top: 28px;
+    }
+
+    #banner {
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+     
+    #banner #txt-banner{
+        position: absolute;
+       left: 182px;
+       top: 110px;
+       font-size: 50px;
+       color: rgb(63, 64, 65);
+       font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #banner #txt-dis{
+        position: absolute;
+       left: 182px;
+       top: 178px;
+       color: rgb(110, 111, 112);
+       font-family: Arial, Helvetica, sans-serif;
+
+    }
